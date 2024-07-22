@@ -14,7 +14,9 @@ Original README: [here](./SE-SSD.md)
 4. [jsk_recognition](https://github.com/jsk-ros-pkg/jsk_recognition) `sudo apt install ros-melodic-jsk-recognition-msgs ros-melodic-jsk-rviz-plugins`
 5. Boost `sudo apt install libboost-all-dev`
 6. cmake **3.13.2+**
-7. (Runtime) [LIO-SEGMOT](https://github.com/StephLin/LIO-SEGMOT)
+7. CUDA 10.2
+8. CUDNN 7.6.5 
+9. (Runtime) [LIO-SEGMOT](https://github.com/StephLin/LIO-SEGMOT)
 
 ### 0. CMake 3.13.2+
 
