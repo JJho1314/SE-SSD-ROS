@@ -83,7 +83,7 @@ We provide a single script to launch a ROS node or a ROS service:
 - Run SE-SSD as a ROS node:
 
   ```bash
-  python3 ros_main.py
+  python3 ros_main.py --range_detection
   ```
 
 - Run SE-SSD as a ROS service (e.g., for **LIO-SEGMOT**):
