@@ -43,7 +43,8 @@ Instead, you have to manually add the binary directory, i.e., `$CMAKE_BIN_PATH`,
 Run the following commands:
 
 ```bash
-python3 -m virtualenv venv && source venv/bin/activate
+conda create -n sessd python=3.8
+conda activate sessd
 python3 -m pip install -r requirements.txt
 python3 -m pip install torch==1.6.0 torchvision==0.7.0  # CUDA 10.2
 python3 install.py --cmake_executable=$CMAKE_BIN_PATH/cmake
